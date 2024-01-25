@@ -15,25 +15,19 @@
         <TextBox Name="TextBoxInput" HorizontalAlignment="Center" Height="39" Margin="0,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
         <Button Content="Submit" HorizontalAlignment="Left" Margin="533,90,0,0" VerticalAlignment="Top" Height="35" Width="54" Click="Submit_Click"/>
 
-        <ListView d:ItemsSource="{d:SampleData ItemCount=50
-            }" Margin="85,141,85,10">
+        <ListView x:Name="ChampionsListView" Margin="10,141,10,10">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Image" Width="75"/>
-                    <GridViewColumn Header="Genre" Width="75"/>
-                    <GridViewColumn Header="Role" Width="75"/>
-                    <GridViewColumn Header="Espece" Width="75"/>
-                    <GridViewColumn Header="Ressource" Width="75"/>
-                    <GridViewColumn Header="Type de portée" Width="75"/>
-                    <GridViewColumn Header="Region" Width="75"/>
-                    <GridViewColumn Header="Année" Width="75"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100"/>
+                    <GridViewColumn Header="Gender" DisplayMemberBinding="{Binding Gender}" Width="75"/>
+                    <GridViewColumn Header="Role" DisplayMemberBinding="{Binding RoleSTR}" Width="100"/>
+                    <GridViewColumn Header="Race" DisplayMemberBinding="{Binding RaceSTR}" Width="100"/>
+                    <GridViewColumn Header="Resource" DisplayMemberBinding="{Binding Resource}" Width="100"/>
+                    <GridViewColumn Header="Range Type" DisplayMemberBinding="{Binding RangeSTR}" Width="100"/>
+                    <GridViewColumn Header="Region" DisplayMemberBinding="{Binding RegionSTR}" Width="100"/>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Date}" Width="75"/>
                 </GridView>
             </ListView.View>
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
-                    <Setter Property="Height" Value="50"/>
-                </Style>
-            </ListView.ItemContainerStyle>
         </ListView>
     </Grid>
 </Window>

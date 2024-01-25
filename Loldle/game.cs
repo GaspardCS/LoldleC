@@ -1,4 +1,4 @@
-﻿public class Game
+﻿public class Game 
 {
 
     public Champion Start()
@@ -17,15 +17,32 @@
 
     }
 
-    public bool checkAnswer(string inputText, Champion champion)
+    public (int, Champion) checkAnswer(string inputText, Champion champion)
     {
-        if (inputText == champion.Name)
+        Program program = new Program();
+
+        var championNames = program.ChampionName();
+
+        string input = inputText.ToLower();
+
+        Champion champio = new Champion();
+
+        int index = Array.IndexOf(championNames, input);
+        if (index == -1)
         {
-            return true;
+            return (2, champio);
+        }
+        else if (champion.Name.ToLower() == input)
+        {
+            return (0, champio);
         }
         else
         {
-            return false;
+            var championCollection = program.Json();
+            var championInput = championCollection.Champions.ElementAt(index).Value;
+
+            return (1, championInput);
+
         }
     }
     public void game()
