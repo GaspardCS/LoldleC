@@ -19,7 +19,6 @@
             }" Margin="85,141,85,10">
             <ListView.View>
                 <GridView>
-                    <!-- 8 colonnes -->
                     <GridViewColumn Header="Image" Width="75"/>
                     <GridViewColumn Header="Genre" Width="75"/>
                     <GridViewColumn Header="Role" Width="75"/>
@@ -30,6 +29,11 @@
                     <GridViewColumn Header="Année" Width="75"/>
                 </GridView>
             </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Height" Value="50"/>
+                </Style>
+            </ListView.ItemContainerStyle>
         </ListView>
     </Grid>
 </Window>
