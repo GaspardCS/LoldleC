@@ -1,0 +1,25 @@
+{
+    "Champions": {
+        "Aatrox": {
+            "name": "Aatrox",
+            "gender": "Masculin",
+            "role": [ "Top" ],
+            "race": [ "Darkin" ],
+            "resource": "Sans mana",
+            "range": [ "Melee" ],
+            "region": [ "Runeterra", "Shurima" ],
+            "date": "2013"
+        },
+        "Ahri": {
+            "name": "Ahri",
+            "gender": "Feminin",
+            "role": [ "Mid" ],
+            "race": [ "Vastaya" ],
+            "resource": "Mana",
+            "range": [ "Distance" ],
+            "region": [ "Ionia" ],
+            "date": "2011"
+
+        }
+    }
+}
