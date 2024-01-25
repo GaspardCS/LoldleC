@@ -19,7 +19,6 @@
             }" Margin="85,141,85,10">
             <ListView.View>
                 <GridView>
-                    <!-- 8 colonnes -->
                     <GridViewColumn Header="Image" Width="75"/>
                     <GridViewColumn Header="Genre" Width="75"/>
                     <GridViewColumn Header="Role" Width="75"/>
