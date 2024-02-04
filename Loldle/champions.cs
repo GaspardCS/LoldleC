@@ -1,7 +1,7 @@
 public class Champion
 {
 
-    public string RegionSTR  => Region.GetNameElements();
+    public string RegionSTR => Region.GetNameElements();
     public string RoleSTR => Role.GetNameElements();
     public string RaceSTR => Race.GetNameElements();
     public string RangeSTR => Range.GetNameElements();
@@ -21,6 +21,17 @@ public class Champion
 public class ChampionCollection
 {
     public Dictionary<string, Champion> Champions { get; set; }
+}
+
+public class EmojiChamp
+{
+    public string Name { get; set; }
+    public string Emojis { get; set; }
+}
+
+public class EmojiChampCollection
+{
+    public Dictionary<string, EmojiChamp> emoji { get; set; }
 }
 
 
