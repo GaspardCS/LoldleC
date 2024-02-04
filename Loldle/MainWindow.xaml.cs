@@ -1,67 +1,39 @@
-﻿using System.Diagnostics;
-using System.Text;
+﻿using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Loldle
 {
     public partial class MainWindow : Window
     {
-        Game game = new Game();
-        public Action OnReset;
+        private string[] allName;
+        private List<string> championsFound = new List<string>();
 
-        Champion champion;
         public MainWindow()
         {
             InitializeComponent();
-
-            OnReset += HandleReset;
-            OnReset?.Invoke();   
-
-        }
-        public void HandleReset()
-        {
-            champion = game.Start();
-            test.Text = champion.Name;
-            ChampionsListView.Items.Clear();
-        }
-
-        private void Reset(object sender, RoutedEventArgs e)
-        {
-            OnReset?.Invoke();
+            Game game = new Game();
+            allName = game.allName();
         }
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
-            string inputText = TextBoxInput.Text;
+            string inputText = TextBoxInput.Text.ToLower();
 
-            Champion champ = new Champion();
-
-
-            (int check, champ)  = game.checkAnswer(inputText, champion);
-
-            if (check == 0)
+            if (allName.Contains(inputText) && !championsFound.Contains(inputText))
             {
-                MessageBox.Show("Victoire");
-                OnReset?.Invoke();
-            }
-            else if (check == 1)
-            {
-                ChampionsListView.Items.Insert(0,champ);
+                championsFound.Add(inputText);
+                ChampionsListView.Items.Add(new { Name = inputText });
 
+                if (championsFound.Count == allName.Length)
+                {
+                    MessageBox.Show("Victoire! Tous les champions ont été trouvés.");
+                }
             }
             else
             {
-                MessageBox.Show("Pas champ");
-            }   
+                // Gérer le cas où l'entrée n'est pas valide ou déjà trouvée
+            }
         }
     }
+
 }

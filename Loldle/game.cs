@@ -1,4 +1,7 @@
-﻿public class Game 
+﻿using System.IO;
+using Newtonsoft.Json;
+
+public class Game 
 {
 
     public Champion Start()
@@ -45,6 +48,14 @@
 
         }
     }
+
+    public string[] allName()
+    {
+        Program program = new Program();
+        string[] championNames = program.ChampionName();
+        return championNames;
+    }
+
     public void game()
     {
 
