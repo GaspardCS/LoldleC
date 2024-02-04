@@ -15,53 +15,15 @@ namespace Loldle
 {
     public partial class MainWindow : Window
     {
-        Game game = new Game();
-        public Action OnReset;
-
-        Champion champion;
         public MainWindow()
         {
             InitializeComponent();
-
-            OnReset += HandleReset;
-            OnReset?.Invoke();   
-
-        }
-        public void HandleReset()
-        {
-            champion = game.Start();
-            test.Text = champion.Name;
-            ChampionsListView.Items.Clear();
         }
 
-        private void Reset(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            OnReset?.Invoke();
-        }
-
-        private void Submit_Click(object sender, RoutedEventArgs e)
-        {
-            string inputText = TextBoxInput.Text;
-
-            Champion champ = new Champion();
-
-
-            (int check, champ)  = game.checkAnswer(inputText, champion);
-
-            if (check == 0)
-            {
-                MessageBox.Show("Victoire");
-                OnReset?.Invoke();
-            }
-            else if (check == 1)
-            {
-                ChampionsListView.Items.Insert(0,champ);
-
-            }
-            else
-            {
-                MessageBox.Show("Pas champ");
-            }   
+            liste liste = new liste();
+            liste.Show();
         }
     }
 }

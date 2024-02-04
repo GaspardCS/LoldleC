@@ -45,6 +45,14 @@
 
         }
     }
+
+    public string[] allName()
+    {
+        Program program = new Program();
+        string[] championNames = program.ChampionName();
+        return championNames;
+    }
+
     public void game()
     {
 

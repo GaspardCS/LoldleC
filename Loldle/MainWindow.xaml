@@ -8,26 +8,9 @@
         ResizeMode="NoResize"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Name="test"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,128,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
+        <Button Content="Liste" HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="Button_Click_1"/>
 
-        <Button Content="Reset" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Height="35" Width="124" Click="Reset"/>
-
-        <TextBox Name="TextBoxInput" HorizontalAlignment="Center" Height="39" Margin="0,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
-        <Button Content="Submit" HorizontalAlignment="Left" Margin="533,90,0,0" VerticalAlignment="Top" Height="35" Width="54" Click="Submit_Click"/>
-
-        <ListView x:Name="ChampionsListView" Margin="10,141,10,10">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="100"/>
-                    <GridViewColumn Header="Gender" DisplayMemberBinding="{Binding Gender}" Width="75"/>
-                    <GridViewColumn Header="Role" DisplayMemberBinding="{Binding RoleSTR}" Width="100"/>
-                    <GridViewColumn Header="Race" DisplayMemberBinding="{Binding RaceSTR}" Width="100"/>
-                    <GridViewColumn Header="Resource" DisplayMemberBinding="{Binding Resource}" Width="100"/>
-                    <GridViewColumn Header="Range Type" DisplayMemberBinding="{Binding RangeSTR}" Width="100"/>
-                    <GridViewColumn Header="Region" DisplayMemberBinding="{Binding RegionSTR}" Width="100"/>
-                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Date}" Width="75"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
     </Grid>
 </Window>
