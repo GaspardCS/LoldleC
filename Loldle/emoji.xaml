@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Loldle"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         Title="emoji" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="Input" HorizontalAlignment="Left" Margin="304,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" Height="30" />
