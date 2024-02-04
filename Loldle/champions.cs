@@ -23,6 +23,17 @@ public class ChampionCollection
     public Dictionary<string, Champion> Champions { get; set; }
 }
 
+public class EmojiChamp
+{
+    public string Name { get; set; }
+    public string Emojis { get; set; }
+}
+
+public class EmojiChampCollection
+{
+    public Dictionary<string, EmojiChamp> emoji { get; set; }
+}
+
 
 public static class ClassExtend
 {

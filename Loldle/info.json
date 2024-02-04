@@ -59,7 +59,7 @@
         "Illaoi": {
             "name": "Illaoi",
             "gender": "Féminin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain", "Spiritualiste" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -70,7 +70,7 @@
         "Irelia": {
             "name": "Irélia",
             "gender": "Féminin",
-            "role": [ "Milieu", "Haut" ],
+            "role": [ "Milieu", "Top" ],
             "race": [ "Humain" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -115,7 +115,7 @@
         "Jax": {
             "name": "Jax",
             "gender": "Masculin",
-            "role": [ "Jungle", "Haut" ],
+            "role": [ "Jungle", "Top" ],
             "race": [ "Inconnu" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -123,10 +123,10 @@
             "date": "2009",
             "icon": "http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion/Jax.png"
         },
-        "J": {
+        "Jayce": {
             "name": "Jayce",
             "gender": "Masculin",
-            "role": [ "Milieu", "Haut" ],
+            "role": [ "Milieu", "Top" ],
             "race": [ "Humain" ],
             "resource": "Mana",
             "range": [ "Mêlée", "À Distance" ],
@@ -159,7 +159,7 @@
         "K'Santé": {
             "name": "K'Santé",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -238,7 +238,7 @@
         "Kayle": {
             "name": "Kayle",
             "gender": "Féminin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Hôte", "Humain", "Altéré Magiquement" ],
             "resource": "Mana",
             "range": [ "Mêlée", "À Distance" ],
@@ -261,7 +261,7 @@
         "Kennen": {
             "name": "Kennen",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Yordle" ],
             "resource": "Énergie",
             "range": [ "À Distance" ],
@@ -294,7 +294,7 @@
         "Kled": {
             "name": "Kled",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Yordle" ],
             "resource": "Courage",
             "range": [ "Mêlée" ],
@@ -317,7 +317,7 @@
         "Tahm Kench": {
             "name": "Tahm Kench",
             "gender": "Masculin",
-            "role": [ "Support", "Haut" ],
+            "role": [ "Support", "Top" ],
             "race": [ "Démon", "Esprit" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -418,7 +418,7 @@
         "Malphite": {
             "name": "Malphite",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Golem" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -485,7 +485,7 @@
         "Mordekaiser": {
             "name": "Mordekaiser",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Revenant" ],
             "resource": "Bouclier",
             "range": [ "Mêlée" ],
@@ -518,7 +518,7 @@
         "Nasus": {
             "name": "Nasus",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Dieu-Guerrier" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -597,7 +597,7 @@
         "Olaf": {
             "name": "Olaf",
             "gender": "Masculin",
-            "role": [ "Jungle", "Haut" ],
+            "role": [ "Jungle", "Top" ],
             "race": [ "Humain", "Né de Glace" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -620,7 +620,7 @@
         "Ornn": {
             "name": "Ornn",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Dieu", "Esprit" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -631,7 +631,7 @@
         "Pantheon": {
             "name": "Pantheon",
             "gender": "Masculin",
-            "role": [ "Milieu", "Support", "Haut" ],
+            "role": [ "Milieu", "Support", "Top" ],
             "race": [ "Hôte", "Humain" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -642,7 +642,7 @@
         "Poppy": {
             "name": "Poppy",
             "gender": "Féminin",
-            "role": [ "Jungle", "Haut" ],
+            "role": [ "Jungle", "Top" ],
             "race": [ "Yordle" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -675,7 +675,7 @@
         "Quinn": {
             "name": "Quinn",
             "gender": "Féminin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain" ],
             "resource": "Mana",
             "range": [ "À distance" ],
@@ -741,7 +741,7 @@
         "Renekton": {
             "name": "Renekton",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Dieu-Guerrier" ],
             "resource": "Furie",
             "range": [ "Mêlée" ],
@@ -752,7 +752,7 @@
         "Rengar": {
             "name": "Rengar",
             "gender": "Masculin",
-            "role": [ "Jungle", "Haut" ],
+            "role": [ "Jungle", "Top" ],
             "race": [ "Vastaya" ],
             "resource": "Férocité",
             "range": [ "Mêlée" ],
@@ -763,7 +763,7 @@
         "Riven": {
             "name": "Riven",
             "gender": "Féminin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain" ],
             "resource": "Sans Mana",
             "range": [ "Mêlée" ],
@@ -774,7 +774,7 @@
         "Rumble": {
             "name": "Rumble",
             "gender": "Masculin",
-            "role": [ "Milieu", "Haut" ],
+            "role": [ "Milieu", "Top" ],
             "race": [ "Yordle" ],
             "resource": "Vapeur",
             "range": [ "Mêlée" ],
@@ -785,7 +785,7 @@
         "Ryze": {
             "name": "Ryze",
             "gender": "Masculin",
-            "role": [ "Milieu", "Haut" ],
+            "role": [ "Milieu", "Top" ],
             "race": [ "Humain", "Altéré Magiquement" ],
             "resource": "Mana",
             "range": [ "À distance" ],
@@ -840,7 +840,7 @@
         "Sett": {
             "name": "Sett",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain", "Vastaya" ],
             "resource": "Agressivité",
             "range": [ "Mêlée" ],
@@ -862,7 +862,7 @@
         "Shen": {
             "name": "Shen",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Humain", "Spiritualiste" ],
             "resource": "Énergie",
             "range": [ "Mêlée" ],
@@ -884,7 +884,7 @@
         "Singed": {
             "name": "Singed",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Altéré Chimiquement", "Humain" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
@@ -895,7 +895,7 @@
         "Sion": {
             "name": "Sion",
             "gender": "Masculin",
-            "role": [ "Haut" ],
+            "role": [ "Top" ],
             "race": [ "Revenant" ],
             "resource": "Mana",
             "range": [ "Mêlée" ],
