@@ -25,5 +25,17 @@ namespace Loldle
             liste liste = new liste();
             liste.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            loldle loldle = new loldle();
+            loldle.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            emoji emoji = new emoji();
+            emoji.Show();
+        }
     }
 }

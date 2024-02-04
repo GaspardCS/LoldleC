@@ -8,8 +8,8 @@
         ResizeMode="NoResize"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,128,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
+        <Button Content="Loldle" HorizontalAlignment="Center" Margin="0,128,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="Button_Click"/>
+        <Button Content="Emoji" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="Button_Click_2"/>
         <Button Content="Liste" HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="Button_Click_1"/>
 
     </Grid>

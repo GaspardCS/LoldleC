@@ -1,0 +1,628 @@
+{
+    "emoji": {
+        "Aatrox": {
+            "name": "Aatrox",
+            "emojis": "🗡️⛓️🩸"
+        },
+        "Ahri": {
+            "name": "Ahri",
+            "emojis": "🦊💋❤️"
+        },
+        "Akali": {
+            "name": "Akali",
+            "emojis": "🫥👁️☭"
+        },
+        "Alistar": {
+            "name": "Alistar",
+            "emojis": "🐮🛡️🔔"
+        },
+        "Amumu": {
+            "name": "Amumu",
+            "emojis": "😭🤕💧"
+        },
+        "Anivia": {
+            "name": "Anivia",
+            "emojis": "🐦❄️🌀"
+        },
+        "Annie": {
+            "name": "Annie",
+            "emojis": "🐻🔥📚"
+        },
+        "Aphelios": {
+            "name": "Aphelios",
+            "emojis": "🌙🔫🏹"
+        },
+        "Ashe": {
+            "name": "Ashe",
+            "emojis": "🏹❄️🌀"
+        },
+        "Aurelion Sol": {
+            "name": "Aurelion Sol",
+            "emojis": "🐉🌌🌟"
+        },
+        "Azir": {
+            "name": "Azir",
+            "emojis": "🏰💂‍♀👑"
+        },
+        "Bard": {
+            "name": "Bard",
+            "emojis": "🎶🎺🪲"
+        },
+        "Blitzcrank": {
+            "name": "Blitzcrank",
+            "emojis": "🥊⚡🤖"
+        },
+        "Brand": {
+            "name": "Brand",
+            "emojis": "🔥☠️🧯"
+        },
+        "Braum": {
+            "name": "Braum",
+            "emojis": "🛡️🤵❄️"
+        },
+        "Caitlyn": {
+            "name": "Caitlyn",
+            "emojis": "🎩🔫🕵️"
+        },
+        "Camille": {
+            "name": "Camille",
+            "emojis": "✂️⚙️🦵"
+        },
+        "Cassiopeia": {
+            "name": "Cassiopeia",
+            "emojis": "🐍🌀☠️"
+        },
+        "Cho'Gath": {
+            "name": "Cho'Gath",
+            "emojis": "👹🍽️🎩"
+        },
+        "Corki": {
+            "name": "Corki",
+            "emojis": "🛩️🚀🔥"
+        },
+        "Darius": {
+            "name": "Darius",
+            "emojis": "🪓🩸🏀"
+        },
+        "Diana": {
+            "name": "Diana",
+            "emojis": "🌙🛡️🪄"
+        },
+        "Dr. Mundo": {
+            "name": "Dr. Mundo",
+            "emojis": "🩺💉💪"
+        },
+        "Draven": {
+            "name": "Draven",
+            "emojis": "🪓🪓🚁"
+        },
+        "Ekko": {
+            "name": "Ekko",
+            "emojis": "⌛🕰️🏏"
+        },
+        "Elise": {
+            "name": "Elise",
+            "emojis": "🕷️🌀🕷️"
+        },
+        "Evelynn": {
+            "name": "Evelynn",
+            "emojis": "💃❤️💋"
+        },
+        "Ezreal": {
+            "name": "Ezreal",
+            "emojis": "🧤🎯🏳️‍⚧️"
+        },
+        "Fiddlesticks": {
+            "name": "Fiddlesticks",
+            "emojis": "😱🐦‍⬛🎃"
+        },
+        "Fiora": {
+            "name": "Fiora",
+            "emojis": "🤺🗡️⚜️"
+        },
+        "Fizz": {
+            "name": "Fizz",
+            "emojis": "🐟🌊🎣"
+        },
+        "Galio": {
+            "name": "Galio",
+            "emojis": "🗿✈️🛡️"
+        },
+        "Gangplank": {
+            "name": "Gangplank",
+            "emojis": "🏴‍☠️🔫🍊"
+        },
+        "Garen": {
+            "name": "Garen",
+            "emojis": "⚔️🌪️🛡️"
+        },
+        "Gnar": {
+            "name": "Gnar",
+            "emojis": "🦖🪃🌀"
+        },
+        "Gragas": {
+            "name": "Gragas",
+            "emojis": "🍻🛢️🫃"
+        },
+        "Graves": {
+            "name": "Graves",
+            "emojis": "🔫😶‍🌫️🚬"
+        },
+        "Gwen": {
+            "name": "Gwen",
+            "emojis": "✂️🪡👗"
+        },
+        "Hecarim": {
+            "name": "Hecarim",
+            "emojis": "🐎💀🪓"
+        },
+        "Heimerdinger": {
+            "name": "Heimerdinger",
+            "emojis": "🔬⚙️🤓"
+        },
+        "Illaoi": {
+            "name": "Illaoi",
+            "emojis": "🐙🌀⚓"
+        },
+        "Irelia": {
+            "name": "Irelia",
+            "emojis": "🗡️🗡️💃"
+        },
+        "Ivern": {
+            "name": "Ivern",
+            "emojis": "🌳🌿🍃"
+        },
+        "Janna": {
+            "name": "Janna",
+            "emojis": "🌪️💨☁️"
+        },
+        "Jarvan IV": {
+            "name": "Jarvan IV",
+            "emojis": "👑🏳︎🛡️"
+        },
+        "Jax": {
+            "name": "Jax",
+            "emojis": "🥋💡🛡️"
+        },
+        "Jayce": {
+            "name": "Jayce",
+            "emojis": "🔨🔫🚀"
+        },
+        "Jhin": {
+            "name": "Jhin",
+            "emojis": "🔫4️⃣🌺"
+        },
+        "Jinx": {
+            "name": "Jinx",
+            "emojis": "💣💉🎸"
+        },
+        "Kai'Sa": {
+            "name": "Kai'Sa",
+            "emojis": "👁️👾🔥"
+        },
+        "Kalista": {
+            "name": "Kalista",
+            "emojis": "🏹👻🌌"
+        },
+        "Karma": {
+            "name": "Karma",
+            "emojis": "🌸🧘⚖️"
+        },
+        "Karthus": {
+            "name": "Karthus",
+            "emojis": "💀🎹🌑"
+        },
+        "Kassadin": {
+            "name": "Kassadin",
+            "emojis": "🌀🌌🌪️"
+        },
+        "Katarina": {
+            "name": "Katarina",
+            "emojis": "🗡️🗡️💥"
+        },
+        "Kayle": {
+            "name": "Kayle",
+            "emojis": "🗡️🔥👼"
+        },
+        "Kayn": {
+            "name": "Kayn",
+            "emojis": "🕳️🔪😈"
+        },
+        "Kennen": {
+            "name": "Kennen",
+            "emojis": "⚡🐿️🎩"
+        },
+        "Kha'Zix": {
+            "name": "Kha'Zix",
+            "emojis": "🦗🌑🪐"
+        },
+        "Kindred": {
+            "name": "Kindred",
+            "emojis": "🐺🐏🌘"
+        },
+        "Kled": {
+            "name": "Kled",
+            "emojis": "🐎🔪💣"
+        },
+        "Kog'Maw": {
+            "name": "Kog'Maw",
+            "emojis": "🐛👹🔥"
+        },
+        "LeBlanc": {
+            "name": "LeBlanc",
+            "emojis": "🎭💎🔮"
+        },
+        "Lee Sin": {
+            "name": "Lee Sin",
+            "emojis": "🥋👁️💨"
+        },
+        "Leona": {
+            "name": "Leona",
+            "emojis": "☀️🌟🛡️"
+        },
+        "Lillia": {
+            "name": "Lillia",
+            "emojis": "🦌🌸🌀"
+        },
+        "Lissandra": {
+            "name": "Lissandra",
+            "emojis": "❄️🔮⚡"
+        },
+        "Lucian": {
+            "name": "Lucian",
+            "emojis": "🔫🌪️⚡"
+        },
+        "Lulu": {
+            "name": "Lulu",
+            "emojis": "🌺🧚🎩"
+        },
+        "Lux": {
+            "name": "Lux",
+            "emojis": "✨📚🔦"
+        },
+        "Malphite": {
+            "name": "Malphite",
+            "emojis": "🌋🗿⚔️"
+        },
+        "Malzahar": {
+            "name": "Malzahar",
+            "emojis": "🕷️🌑🔮"
+        },
+        "Maokai": {
+            "name": "Maokai",
+            "emojis": "🌳🍂🌲"
+        },
+        "Master Yi": {
+            "name": "Master Yi",
+            "emojis": "🗡️🥋🏹"
+        },
+        "Miss Fortune": {
+            "name": "Miss Fortune",
+            "emojis": "💰🔫🏴‍☠️"
+        },
+        "Mordekaiser": {
+            "name": "Mordekaiser",
+            "emojis": "🔨🛡️💀"
+        },
+        "Morgana": {
+            "name": "Morgana",
+            "emojis": "🔮👼🌟"
+        },
+        "Nami": {
+            "name": "Nami",
+            "emojis": "🌊🐟🌟"
+        },
+        "Nasus": {
+            "name": "Nasus",
+            "emojis": "🐶🔥📚"
+        },
+        "Nautilus": {
+            "name": "Nautilus",
+            "emojis": "🌊⚓🔵"
+        },
+        "Neeko": {
+            "name": "Neeko",
+            "emojis": "🦎🌸🌿"
+        },
+        "Nidalee": {
+            "name": "Nidalee",
+            "emojis": "🐆🌿🏹"
+        },
+        "Nocturne": {
+            "name": "Nocturne",
+            "emojis": "🌑🗡️🔥"
+        },
+        "Nunu & Willump": {
+            "name": "Nunu & Willump",
+            "emojis": "👦🏔️🌨️"
+        },
+        "Olaf": {
+            "name": "Olaf",
+            "emojis": "🪓❄️🔥"
+        },
+        "Orianna": {
+            "name": "Orianna",
+            "emojis": "⚙️🔮🎶"
+        },
+        "Ornn": {
+            "name": "Ornn",
+            "emojis": "🔨🏔️❄️"
+        },
+        "Pantheon": {
+            "name": "Pantheon",
+            "emojis": "🛡️🗺️🔥"
+        },
+        "Poppy": {
+            "name": "Poppy",
+            "emojis": "🛠️🐴🔵"
+        },
+        "Pyke": {
+            "name": "Pyke",
+            "emojis": "🔪🎣🐟"
+        },
+        "Qiyana": {
+            "name": "Qiyana",
+            "emojis": "🌋🌊🌎"
+        },
+        "Quinn": {
+            "name": "Quinn",
+            "emojis": "🦅🏹🌿"
+        },
+        "Rakan": {
+            "name": "Rakan",
+            "emojis": "🦋💃❤️"
+        },
+        "Rammus": {
+            "name": "Rammus",
+            "emojis": "🌵🔵🌀"
+        },
+        "Rek'Sai": {
+            "name": "Rek'Sai",
+            "emojis": "🦖🕳️👁️"
+        },
+        "Rell": {
+            "name": "Rell",
+            "emojis": "⛓️🛡️💀"
+        },
+        "Renekton": {
+            "name": "Renekton",
+            "emojis": "🐊🔪🏜️"
+        },
+        "Rengar": {
+            "name": "Rengar",
+            "emojis": "🦁🔪🌲"
+        },
+        "Riven": {
+            "name": "Riven",
+            "emojis": "🗡️🔪🌊"
+        },
+        "Rumble": {
+            "name": "Rumble",
+            "emojis": "🔥🛠️🚗"
+        },
+        "Ryze": {
+            "name": "Ryze",
+            "emojis": "📜🔵⚡"
+        },
+        "Samira": {
+            "name": "Samira",
+            "emojis": "🔫💃🔪"
+        },
+        "Sejuani": {
+            "name": "Sejuani",
+            "emojis": "🐖❄️🛡️"
+        },
+        "Senna": {
+            "name": "Senna",
+            "emojis": "🔫🔵🌟"
+        },
+        "Seraphine": {
+            "name": "Seraphine",
+            "emojis": "🎤🎶💖"
+        },
+        "Sett": {
+            "name": "Sett",
+            "emojis": "🥊🦴💪"
+        },
+        "Shaco": {
+            "name": "Shaco",
+            "emojis": "🤡🃏🔪"
+        },
+        "Shen": {
+            "name": "Shen",
+            "emojis": "⚔️🌕🏯"
+        },
+        "Shyvana": {
+            "name": "Shyvana",
+            "emojis": "🐉🔥🌪️"
+        },
+        "Singed": {
+            "name": "Singed",
+            "emojis": "🧪🚀🌿"
+        },
+        "Sion": {
+            "name": "Sion",
+            "emojis": "💀🪨⚔️"
+        },
+        "Sivir": {
+            "name": "Sivir",
+            "emojis": "🪃🛡🏃🏻‍♀"
+        },
+        "Skarner": {
+            "name": "Skarner",
+            "emojis": "🦂🔷🛡️"
+        },
+        "Sona": {
+            "name": "Sona",
+            "emojis": "🎵🌸🌟"
+        },
+        "Soraka": {
+            "name": "Soraka",
+            "emojis": "🦄🌟🌿"
+        },
+        "Swain": {
+            "name": "Swain",
+            "emojis": "🧙‍♂️🔮🦉"
+        },
+        "Sylas": {
+            "name": "Sylas",
+            "emojis": "🔒⛓️🔵"
+        },
+        "Syndra": {
+            "name": "Syndra",
+            "emojis": "🌀🔮🔥"
+        },
+        "Tahm Kench": {
+            "name": "Tahm Kench",
+            "emojis": "🐟🎣🍽️"
+        },
+        "Taliyah": {
+            "name": "Taliyah",
+            "emojis": "🌋🌪️🌄"
+        },
+        "Talon": {
+            "name": "Talon",
+            "emojis": "🗡️🔪🦅"
+        },
+        "Taric": {
+            "name": "Taric",
+            "emojis": "🌟💎🛡️"
+        },
+        "Teemo": {
+            "name": "Teemo",
+            "emojis": "🍄🔫🎩"
+        },
+        "Thresh": {
+            "name": "Thresh",
+            "emojis": "🔗🪝🌟"
+        },
+        "Tristana": {
+            "name": "Tristana",
+            "emojis": "🚀💥🔫"
+        },
+        "Trundle": {
+            "name": "Trundle",
+            "emojis": "🧱🌲❄️"
+        },
+        "Tryndamere": {
+            "name": "Tryndamere",
+            "emojis": "⚔️🏰❄️"
+        },
+        "Twisted Fate": {
+            "name": "Twisted Fate",
+            "emojis": "🎴🎲🃏"
+        },
+        "Twitch": {
+            "name": "Twitch",
+            "emojis": "🐀🔪💣"
+        },
+        "Udyr": {
+            "name": "Udyr",
+            "emojis": "🐻🐯🐢"
+        },
+        "Urgot": {
+            "name": "Urgot",
+            "emojis": "🤖⛓️🪙"
+        },
+        "Varus": {
+            "name": "Varus",
+            "emojis": "🏹🔮🔵"
+        },
+        "Vayne": {
+            "name": "Vayne",
+            "emojis": "🏹🦇🔴"
+        },
+        "Veigar": {
+            "name": "Veigar",
+            "emojis": "🔮🧙‍♂️🌟"
+        },
+        "Vel'Koz": {
+            "name": "Vel'Koz",
+            "emojis": "👁️🛸🔮"
+        },
+        "Vi": {
+            "name": "Vi",
+            "emojis": "👊💥🔧"
+        },
+        "Viego": {
+            "name": "Viego",
+            "emojis": "👑🌘💔"
+        },
+        "Viktor": {
+            "name": "Viktor",
+            "emojis": "🤖🔬⚙️"
+        },
+        "Vladimir": {
+            "name": "Vladimir",
+            "emojis": "🦇💉🩸"
+        },
+        "Volibear": {
+            "name": "Volibear",
+            "emojis": "🐻⚡🌩️"
+        },
+        "Warwick": {
+            "name": "Warwick",
+            "emojis": "🐺🌕🔥"
+        },
+        "Wukong": {
+            "name": "Wukong",
+            "emojis": "🐒🪨🪃"
+        },
+        "Xayah": {
+            "name": "Xayah",
+            "emojis": "🦅🏹🌺"
+        },
+        "Xerath": {
+            "name": "Xerath",
+            "emojis": "🔮⚡🌪️"
+        },
+        "Xin Zhao": {
+            "name": "Xin Zhao",
+            "emojis": "🏹🗡️🛡️"
+        },
+        "Yasuo": {
+            "name": "Yasuo",
+            "emojis": "🌪️🍃🔪"
+        },
+        "Yone": {
+            "name": "Yone",
+            "emojis": "🌪️⚔️🪙"
+        },
+        "Yorick": {
+            "name": "Yorick",
+            "emojis": "💀🪓🔮"
+        },
+        "Yuumi": {
+            "name": "Yuumi",
+            "emojis": "🐱📚🌟"
+        },
+        "Zac": {
+            "name": "Zac",
+            "emojis": "💚🟢🪶"
+        },
+        "Zed": {
+            "name": "Zed",
+            "emojis": "🖤⚔️🌙"
+        },
+        "Zeri": {
+            "name": "Zeri",
+            "emojis": "🪁🔷❄️"
+        },
+        "Ziggs": {
+            "name": "Ziggs",
+            "emojis": "💣🔥💥"
+        },
+        "Zilean": {
+            "name": "Zilean",
+            "emojis": "⏳🕰️⌛"
+        },
+        "Zoe": {
+            "name": "Zoe",
+            "emojis": "🌟🔮💫"
+        },
+        "Zyra": {
+            "name": "Zyra",
+            "emojis": "🌱🌺🌼"
+        }
+    }
+}
